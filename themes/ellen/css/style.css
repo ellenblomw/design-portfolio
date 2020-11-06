@@ -51,7 +51,7 @@ p {
     line-height: 1.5em;
 }
 
-img {
+p img {
     border-radius: 5px;
     width: 250px;
     height: auto;
