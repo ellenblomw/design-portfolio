@@ -33,6 +33,32 @@ body {
     padding: 2em;
 }
 
+.container {
+    width: auto;
+}
+
+h1 {
+    color: #292929;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    line-height: 1.5em;
+}
+
+p {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+img {
+    border-radius: 5px;
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+
 /* Footer */
 
 .site-footer {
