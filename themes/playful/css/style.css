@@ -7,11 +7,40 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+
+.site-header {
+  flex: 0 0 auto;
+  background-color: #292929;
+  color: #d3d3d3;
+  padding: 0 2em;
+}
+
+.site-header a, .site-header a:visited {
+  color: #d3d3d3;
 }
 
 /* Sections
@@ -26,8 +55,24 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
-main {
-  display: block;
+ .main {
+  flex: 1 0 auto;
+  padding: 2em;
+}
+
+.container {
+  width: auto;
+}
+
+.site-footer {
+  flex: 0 0 auto;
+  background: #e74c3c;
+  color: #2b2e30;
+  padding: 2em;
+}
+
+.site-footer a {
+  color: #f0f0f0;
 }
 
 /**
@@ -72,6 +117,21 @@ pre {
  */
 a {
   background-color: transparent;
+}
+
+p {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+p img {
+  border-radius: 5px;
+  width: 250px;
+  height: auto;
+  margin-right: 10px;
+  float: left;
 }
 
 /**
