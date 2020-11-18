@@ -1,6 +1,7 @@
 ---
 Title: KMOM01
 Description: Min redovisningssida för KMOM01
+Template: kmom
 ---
 
 KMOM01
