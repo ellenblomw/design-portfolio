@@ -7,27 +7,40 @@
 
 .kmom-menu {
     grid-column: 1/1;
+    background-color: #FFC7DF;
+    height: auto;
 }
 
 .kmom-report {
     grid-column: 2/2;
     margin-bottom: 20px;
+    background-color: #FFC7DF;
+    border-radius: 20px;
 }
 
 .kmom-report p,
 ul {
     max-width: 700px;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+.kmom-report table {
+    margin: auto;
+}
+
+.kmom-report a,
+.kmom-menu a,
+.kmom-report a:visited,
+.kmom-menu a:visited {
+    color: #362c41;
 }
 
 .kmom-report img {
     max-width: 500px;
-    padding: 20px;
-}
-
-.kmom-report p {
-    line-height: 1.5em;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
 }
 
 @media (max-width: 600px) {

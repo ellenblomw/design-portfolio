@@ -6,7 +6,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Nerko+One&family=Noto+Sans+TC&family=Raleway:wght@200&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -6821,7 +6821,7 @@ readers do not read off random characters that represent icons */
 }
 
 .kmom-box {
-  background-color: #e2e1cd;
+  background-color: #FFC7DF;
   border-radius: 20px;
   padding: 10px;
 }
@@ -6859,27 +6859,40 @@ readers do not read off random characters that represent icons */
 
 .kmom-menu {
   grid-column: 1/1;
+  background-color: #FFC7DF;
+  height: auto;
 }
 
 .kmom-report {
   grid-column: 2/2;
   margin-bottom: 20px;
+  background-color: #FFC7DF;
+  border-radius: 20px;
 }
 
 .kmom-report p,
 ul {
   max-width: 700px;
+  padding: 20px;
+  line-height: 1.5em;
+}
+
+.kmom-report table {
+  margin: auto;
+}
+
+.kmom-report a,
+.kmom-menu a,
+.kmom-report a:visited,
+.kmom-menu a:visited {
+  color: #362c41;
 }
 
 .kmom-report img {
   max-width: 500px;
-  padding: 20px;
-}
-
-.kmom-report p {
-  line-height: 1.5em;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
 }
 
 @media (max-width: 600px) {
@@ -6898,7 +6911,7 @@ ul {
   }
 }
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -6907,6 +6920,7 @@ ul {
 html,
 body {
   height: 100%;
+  background-color: #94618E;
 }
 
 body {
@@ -6917,24 +6931,65 @@ body {
 /* Header */
 .site-header {
   flex: 0 0 auto;
-  background-color: #D3ABFF;
+  background-color: #94618E;
   color: #d3d3d3;
   padding: 0 2em;
+  margin: auto;
+}
+
+.site-header ul {
+  list-style-type: none;
+}
+
+.site-header li {
+  float: left;
+  padding: 16px;
 }
 
 .site-header a,
 .site-header a:visited {
-  color: #d3d3d3;
+  color: #362c41;
+  font-size: 20px;
+  text-align: center;
 }
 
 .main {
-  flex: 1 0 auto;
   padding: 2em;
   width: auto;
+  background-color: #94618E;
+  margin: auto;
+}
+
+p {
+  padding: 20px;
 }
 
 .container {
   width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-item1 {
+  flex-basis: 40%;
+  padding: 10px;
+  line-height: 1.5em;
+}
+
+.container-item2 {
+  flex-basis: 20%;
+  padding: 10px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.container-item3 {
+  flex-basis: 30%;
+  padding: 10px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.8);
 }
 
 h1,
@@ -6943,8 +6998,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
   line-height: 3em;
+  padding-left: 20px;
+}
+
+h1 {
+  font-family: "Nerko One", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
 }
 
 h2 {
@@ -6953,8 +7020,25 @@ h2 {
 }
 
 .site-footer {
-  flex: 0 0 auto;
-  background: #e74c3c;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-row: auto;
+}
+
+.social {
+  background: #FFCBB3;
+  color: #2b2e30;
+  padding: 2em;
+}
+
+.footer-grid2 {
+  background: #E8AFA9;
+  color: #2b2e30;
+  padding: 2em;
+}
+
+.footer-grid3 {
+  background: #FFC7DF;
   color: #2b2e30;
   padding: 2em;
 }

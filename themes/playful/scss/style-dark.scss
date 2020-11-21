@@ -6,12 +6,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Nerko+One&family=Noto+Sans+TC&family=Raleway:wght@200&display=swap');
 @import 'report';
 @import 'kmom';
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -20,6 +20,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 html,
 body {
     height: 100%;
+    background-color: #94618E;
 }
 
 body {
@@ -31,25 +32,67 @@ body {
 
 .site-header {
     flex: 0 0 auto;
-    background-color: #292929;
+    background-color: #94618E;
     color: #d3d3d3;
     padding: 0 2em;
+    margin: auto;
+}
+
+.site-header ul {
+    list-style-type: none;
+}
+
+.site-header li {
+    float: left;
+    padding: 16px;
 }
 
 .site-header a,
 .site-header a:visited {
-    color: #d3d3d3;
+    color: #362c41;
+    font-size: 20px;
+    text-align: center;
 }
 
+// Main content
+
 .main {
-    flex: 1 0 auto;
     padding: 2em;
     width: auto;
-    background-color: yellow;
+    background-color: #94618E;
+    margin: auto;
+}
+
+p {
+    padding: 20px;
 }
   
 .container {
     width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-item1 {
+    flex-basis: 40%;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+.container-item2 {
+    flex-basis: 20%;
+    padding: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.container-item3 {
+    flex-basis: 30%;
+    padding: 10px;
+    box-shadow: 10px 10px rgba($color: #000000, $alpha: 0.8);
 }
   
 h1,
@@ -58,7 +101,20 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans', sans-serif;
+    line-height: 3em;
+    padding-left: 20px;
+}
+
+h1 {
+    font-family: 'Nerko One', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
 }
 
 h2 {
@@ -66,9 +122,28 @@ h2 {
     font-weight: bold;
 }
 
+// Footer
+
 .site-footer {
-    flex: 0 0 auto;
-    background: #e74c3c;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-row: auto;
+}
+
+.social {
+    background: #FFCBB3;
+    color: #2b2e30;
+    padding: 2em;
+}
+
+.footer-grid2 {
+    background: #E8AFA9;
+    color: #2b2e30;
+    padding: 2em;
+}
+
+.footer-grid3 {
+    background: #FFC7DF;
     color: #2b2e30;
     padding: 2em;
 }
