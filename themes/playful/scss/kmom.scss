@@ -7,14 +7,14 @@
 
 .kmom-menu {
     grid-column: 1/1;
-    background-color: #FFC7DF;
+    background-color: $accent-tricolor3;
     height: auto;
 }
 
 .kmom-report {
     grid-column: 2/2;
     margin-bottom: 20px;
-    background-color: #FFC7DF;
+    background-color: $accent-tricolor3;
     border-radius: 20px;
 }
 
@@ -33,7 +33,7 @@ ul {
 .kmom-menu a,
 .kmom-report a:visited,
 .kmom-menu a:visited {
-    color: #362c41;
+    color: $link-color;
 }
 
 .kmom-report img {

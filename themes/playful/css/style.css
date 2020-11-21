@@ -345,8 +345,8 @@ template {
 }
 
 .alert {
-  background-color: #c6538c;
-  border: 1px solid rgba(198, 83, 140, 0.88);
+  background-color: #00f;
+  border: 1px solid rgba(0, 0, 255, 0.88);
   height: 300px;
   width: 600px;
 }
@@ -6821,7 +6821,7 @@ readers do not read off random characters that represent icons */
 }
 
 .kmom-box {
-  background-color: #FFC7DF;
+  background-color: #ffc7df;
   border-radius: 20px;
   padding: 10px;
 }
@@ -6859,14 +6859,14 @@ readers do not read off random characters that represent icons */
 
 .kmom-menu {
   grid-column: 1/1;
-  background-color: #FFC7DF;
+  background-color: #ffc7df;
   height: auto;
 }
 
 .kmom-report {
   grid-column: 2/2;
   margin-bottom: 20px;
-  background-color: #FFC7DF;
+  background-color: #ffc7df;
   border-radius: 20px;
 }
 
@@ -6920,7 +6920,7 @@ ul {
 html,
 body {
   height: 100%;
-  background-color: #94618E;
+  background-color: #94618e;
 }
 
 body {
@@ -6931,8 +6931,8 @@ body {
 /* Header */
 .site-header {
   flex: 0 0 auto;
-  background-color: #94618E;
-  color: #d3d3d3;
+  background-color: #94618e;
+  color: #362c41;
   padding: 0 2em;
   margin: auto;
 }
@@ -6956,12 +6956,13 @@ body {
 .main {
   padding: 2em;
   width: auto;
-  background-color: #94618E;
+  background-color: #94618e;
   margin: auto;
 }
 
 p {
   padding: 20px;
+  color: #231d2b;
 }
 
 .container {
@@ -7000,6 +7001,7 @@ h5,
 h6 {
   line-height: 3em;
   padding-left: 20px;
+  color: #231d2b;
 }
 
 h1 {
@@ -7026,25 +7028,25 @@ h2 {
 }
 
 .social {
-  background: #FFCBB3;
-  color: #2b2e30;
+  background: #ffcbb3;
+  color: #362c41;
   padding: 2em;
 }
 
 .footer-grid2 {
-  background: #E8AFA9;
-  color: #2b2e30;
+  background: #e8afa9;
+  color: #362c41;
   padding: 2em;
 }
 
 .footer-grid3 {
-  background: #FFC7DF;
-  color: #2b2e30;
+  background: #ffc7df;
+  color: #362c41;
   padding: 2em;
 }
 
 .site-footer a {
-  color: #f0f0f0;
+  color: #362c41;
 }
 
 .flash-img {
