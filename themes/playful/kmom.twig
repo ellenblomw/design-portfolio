@@ -21,7 +21,6 @@
     {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
     <!-- End -->
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="{{ theme_url }}/css/nav.css" type="text/css" />
 
 </head>
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
@@ -43,9 +42,18 @@
             </div>  
     </header>
     <div class="main" id="main" role="main">
-      <!-- index.twig -->
-        <h1>Vår egen layout från kmom.twig</h1>
-        <div class="container">
+      <!-- kmom.twig -->
+        <div class="kmom-grid">
+            <div class="kmom-menu">
+                <p><a href="../report/kmom01">KMOM01</a></p>
+                <p><a href="../report/kmom02">KMOM02</a></p>
+                <p><a href="../report/kmom03">KMOM03</a></p>
+                <p><a href="../report/kmom04">KMOM04</a></p>
+                <p><a href="../report/kmom05">KMOM05</a></p>
+                <p><a href="../report/kmom06">KMOM06</a></p>
+                <p><a href="../report/kmom10">KMOM10</a></p>
+                </div>
+        <div class="kmom-report">
             {{ content }}
         </div>
     </div>
@@ -63,5 +71,4 @@
     </footer>
     <script src="{{ theme_url }}/../shared/js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>
     <script src="{{ theme_url }}/../shared/js/utils.js" type="text/javascript"></script>
-    <script src="{{ theme_url }}/../shared/js/responsive-navbar.js" type="text/javascript"></script>
 </body>

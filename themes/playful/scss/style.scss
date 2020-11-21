@@ -7,7 +7,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
-@import 'report.scss';
+@import 'report';
+@import 'kmom';
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -16,7 +17,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     padding: 0;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -34,13 +36,15 @@ body {
     padding: 0 2em;
 }
 
-.site-header a, .site-header a:visited {
+.site-header a,
+.site-header a:visited {
     color: #d3d3d3;
 }
 
 .main {
     flex: 1 0 auto;
     padding: 2em;
+    width: auto;
 }
   
 .container {
@@ -56,6 +60,11 @@ h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .site-footer {
     flex: 0 0 auto;
     background: #e74c3c;
@@ -65,4 +74,8 @@ h6 {
 
 .site-footer a {
     color: #f0f0f0;
+}
+
+.flash-img {
+    object-fit: cover;
 }
