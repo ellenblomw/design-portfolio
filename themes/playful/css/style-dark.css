@@ -6917,7 +6917,7 @@ body {
 /* Header */
 .site-header {
   flex: 0 0 auto;
-  background-color: #D3ABFF;
+  background-color: #292929;
   color: #d3d3d3;
   padding: 0 2em;
 }
@@ -6931,6 +6931,7 @@ body {
   flex: 1 0 auto;
   padding: 2em;
   width: auto;
+  background-color: yellow;
 }
 
 .container {
@@ -6944,7 +6945,6 @@ h4,
 h5,
 h6 {
   font-family: "Open Sans", sans-serif;
-  line-height: 3em;
 }
 
 h2 {

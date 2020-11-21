@@ -6,8 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass playful/scss/style.scss playful/css/style.css --no-source-map",
-    "style-min": "sass playful/scss/style.scss playful/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass playful/scss/style.scss:aurora/css/style.css playful/scss/style-dark.scss:aurora/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass playful/scss/style.scss:aurora/css/style.min.css playful/scss/style-dark.scss:aurora/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass playful/scss/style-dark.scss playful/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass playful/scss/style-dark.scss playful/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass playful/scss/style.scss playful/css/style.css --no-source-map",
+    "style-light-min": "sass playful/scss/style.scss playful/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
