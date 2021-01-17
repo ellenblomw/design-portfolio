@@ -13,13 +13,13 @@ Template: report
 </div>
 
 <div class="kmom-box">
-<h2>KMOM02</h2>
+<h2>Load</h2>
 <p>Här kan du läsa en redovisningstext om uppgifterna och verktygen i kmom02.</p>
 <p><a href="../portfolio/analysis/02_load"><i class="fas fa-arrow-circle-right"></i></a></p>
 </div>
 
 <div class="kmom-box">
-<h2>KMOM03</h2>
+<h2>Design Principles</h2>
 <p>Här kan du läsa en redovisningstext om uppgifterna och verktygen i kmom03.</p>
 <p><a href="../portfolio/analysis/03_design_principles"><i class="fas fa-arrow-circle-right"></i></a></p>
 </div>
