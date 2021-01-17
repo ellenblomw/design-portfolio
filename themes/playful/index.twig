@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="sv" class="no-js">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,10 +28,10 @@
 </head>
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <header class="site-header">
-        <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+        <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="0">
             <span class="sr-only">Toggle Menu</span>
         </a>
-        <div id="nav" role="navigation" tabindex="-1">
+        <div id="nav" role="navigation" tabindex="0">
             <ul>
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                 <li{% if page.id == current_page.id %} class="active" {% endif %}>

@@ -6983,6 +6983,10 @@ p {
   color: #e0e0bb;
 }
 
+a {
+  color: #9b9b81;
+}
+
 .container {
   width: auto;
   display: flex;

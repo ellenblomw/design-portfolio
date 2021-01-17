@@ -11,5 +11,5 @@ På fritiden tycker jag om att sportklättra eller vara ute med mina hundar i na
 <i class="fab fa-angellist"></i></p>
 </div>
 <div class="container-item2"><h1>Elina Blom</h1></div>
-<div class="container-item3"><img src="../portfolio/assets/img/elina.jpg"></div>
+<div class="container-item3"><img src="../portfolio/assets/img/elina.jpg" alt="jag"></div>
 

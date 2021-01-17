@@ -6885,7 +6885,7 @@ ul {
 .kmom-menu a,
 .kmom-report a:visited,
 .kmom-menu a:visited {
-  color: #362c41;
+  color: #211b27;
 }
 
 .kmom-report img {
@@ -6938,7 +6938,7 @@ ul {
 html,
 body {
   height: 100%;
-  background-color: #94618e;
+  background-color: #d188c9;
 }
 
 body {
@@ -6949,8 +6949,8 @@ body {
 /* Header */
 .site-header {
   flex: 0 0 auto;
-  background-color: #94618e;
-  color: #362c41;
+  background-color: #d188c9;
+  color: #211b27;
   padding: 0 2em;
   margin: auto;
 }
@@ -6966,7 +6966,7 @@ body {
 
 .site-header a,
 .site-header a:visited {
-  color: #362c41;
+  color: #211b27;
   font-size: 20px;
   text-align: center;
 }
@@ -6974,13 +6974,13 @@ body {
 .main {
   padding: 2em;
   width: auto;
-  background-color: #94618e;
+  background-color: #d188c9;
   margin: auto;
 }
 
 p {
   padding: 20px;
-  color: #231d2b;
+  color: #221c29;
 }
 
 .container {
@@ -7056,24 +7056,24 @@ img:not([alt]) {
 
 .social {
   background: #ffcbb3;
-  color: #362c41;
+  color: #211b27;
   padding: 2em;
 }
 
 .footer-grid2 {
   background: #e8afa9;
-  color: #362c41;
+  color: #211b27;
   padding: 2em;
 }
 
 .footer-grid3 {
   background: #ffc7df;
-  color: #362c41;
+  color: #211b27;
   padding: 2em;
 }
 
 .site-footer a {
-  color: #362c41;
+  color: #211b27;
 }
 
 .flash-img {
